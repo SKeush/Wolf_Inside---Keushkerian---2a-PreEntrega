@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: 'Aclonica', sans-serif;
+  color: rgb(26, 105, 223);
+}
+
+a {
+  color: rgb(204, 105, 204);
+  text-decoration: none;
+}
+
+a:hover {
+  text-transform: uppercase;
+  color: rgb(204, 105, 204);
+}
+/* HEADER CON LOGO Y TITULO */
+
+body {
+  background-color: #2fdd92;
+}
+
+header img {
+  border-radius: 100%;
+}
+
+header h2 {
+  color: rgb(42, 42, 230);
+  font-size: 8rem;
+  align-self: center;
+}
+
+h1 {
+  color: rgb(117, 117, 187);
+  text-align: center;
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.animate_zoomInDown {
+  animation-delay: 2s;
+}
+
+/*---------------NAVBAR---------------*/
+
+.nav {
+  margin-top: 5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-size: 1.5rem;
+}
+
+.nav a:hover {
+  text-transform: uppercase;
+  color: rgb(204, 105, 204);
+}
+
+/*---------------A SECCIÓN EQUIPO---------------*/
+/*-necesito ajustar la imagen
+  -no sé cómo hacer para que la imágen vaya debajo del párrafo al llevarlo al tamaño más chico*/
+
+.equipo {
+  margin: 4rem;
+  border-radius: 10%;
+}
+
+.equipo h3 {
+  font-size: 5rem;
+  margin-top: 2rem;
+}
+
+.equipo a:hover {
+  text-transform: uppercase;
+}
+
+/*-------A SECCIÓN MODALIDADES DE TRABAJO--------*/
+/*no logro modificar el título para que quede ajustado al ancho de la card y no corado*/
+
+.card {
+  background-color: transparent;
+  margin: 2rem;
+  padding: 2rem;
+  border: 0px;
+}
+.card-title {
+  font-size: 2.5rem;
+  color: rgb(36, 82, 102);
+}
+
+.animate__flipInY {
+  animation-delay: 0.5s;
+}
+
+.eval {
+  font-size: 1.5rem;
+  padding: 5rem;
+  border-radius: 30%;
+  background-image: url('../img/b1.jpg');
+}
+
+.comunidad {
+  margin: 2rem;
+  padding: 5rem;
+  align-items: center;
+  text-align: center;
+  font-size: 2rem;
+}
+
+footer {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 1rem;
+}
+
+
+/*-------------------NOSOTROS--------------------*/
+
+.titulo_equipo{
+  margin-top: 3rem;
+  align-items: center;
+}
+
+.titulo_equipo h3{
+  font-size: 3rem;
+  padding: 1rem;
+}
+
+.gaby{
+  position: absolute;
+  margin: 2rem;
+  padding: 3rem;
+}
+.gaby h3{
+    font-size: 4rem;
+ color:  rgb(89, 150, 207);
+}
+
+.gaby p{
+  margin-top: 4rem;
+}
+
+.titulo_gaby{
+text-align: center;
+}
+
